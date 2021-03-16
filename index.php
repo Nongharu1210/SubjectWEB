@@ -13,6 +13,6 @@
     $myConn->showBook();
     $myConn->disconnect();
     ?>
-    test tr
+    test
 </body>
 </html>
