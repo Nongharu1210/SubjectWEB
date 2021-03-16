@@ -12,7 +12,7 @@
     ?>
     <select name="" id="year_movie">
     </select>
-    <script src="ggez">
+    <script src="">
      var str = "";
      var jsonEx = <?php echo $jsonfile ?>
     </script>
