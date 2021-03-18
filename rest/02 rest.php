@@ -23,6 +23,6 @@
         return $data;
     }
     function add_data(){
-
+        //INSERT INTO `person` (`id`, `name`, `age`, `create_date`) VALUES (3, 'ggez', 21, '2021-03-18 06:31:25');
     }
 ?>

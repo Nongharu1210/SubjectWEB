@@ -27,6 +27,7 @@ class db{
     function close(){
         $this->db->close();
     }
+    
 }
 
 // ใช้ทดลองภายในหน้านี้ **เท่านั้น**
