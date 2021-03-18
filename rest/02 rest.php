@@ -8,7 +8,7 @@
         echo json_encode(show_data($debug_mode));
     }else if($_SERVER['REQUEST_METHOD']=='POST'){
         debug_text("POST METHOD May be implement soon...", $debug_mode);
-        $message = array("status"=>"POST Method");
+        $message = array("status"=>print_r($_POST));
         echo json_encode($message);
     }else{
         debug_text("Error this site Unsupport This request", $debug_mode);
@@ -21,5 +21,8 @@
         // print_r($data);
         $mydb->close();
         return $data;
+    }
+    function add_data(){
+
     }
 ?>
