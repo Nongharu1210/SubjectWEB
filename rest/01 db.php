@@ -7,12 +7,11 @@ class db{
         $this->debug = $debug;
 
         $this->db->set_charset("utf8");
-        if ($this->db->connect_errno){
-            echo "Fail to connect to MySQL:".
-            $this->db->connect_error;
+        if ($this->db->connect_errno) {
+            echo "Fail to connect to MySQL:" .
+                $this->db->connect_error;
             exit();
-        }
-        else $this->debug_text("Connect Success..");
+        } else $this->debug_text("Connect Success..");
     }
     function query($sql){
         $result = $this->db->query($sql);
@@ -21,16 +20,17 @@ class db{
         return $data;
     }
     function debug_text($text){
-        if($this->debug){
+        if ($this->debug) {
             echo "Debug: {$text}<br>";
         }
     }
-    function close(){$this->db->close();}
+    function close(){
+        $this->db->close();
+    }
 }
 
 // ใช้ทดลองภายในหน้านี้ **เท่านั้น**
-$mydb = new db("root", "", "person_data", true);
-$data = $mydb->query("select * from person");
-print_r($data);
-
+// $mydb = new db("root", "", "person_data", true);
+// $data = $mydb->query("select * from person");
+// print_r($data);
 ?>
