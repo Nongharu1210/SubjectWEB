@@ -13,6 +13,7 @@
 <body>
     <h4 >ShopShock Member Register</h4>
     <hr>
+    <form></form>
     <table border="0" align="center">
         <tr>
             <td align="right">Name :</td>
@@ -28,12 +29,13 @@
         </tr>
         <tr>
             <td align="right">Confirm Password :</td>
-            <td><input type="password"></td>
+            <td><input type="password" required></td>
         </tr>
         <tr>
             <td align="center"><input type="submit"><input type="reset"></td>
         </tr>
     </table>
+    </form>
     <hr>
     
 </body>
