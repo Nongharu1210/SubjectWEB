@@ -4,39 +4,49 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
 </head>
+
 <body>
-    <h4 >ShopShock Member Register</h4>
-    <hr>
-    <form></form>
-    <table border="0" align="center">
-        <tr>
-            <td align="right">Name :</td>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <td align="right">NickName :</td>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <td align="right">Password :</td>
-            <td><input type="password"></td>
-        </tr>
-        <tr>
-            <td align="right">Confirm Password :</td>
-            <td><input type="password" required></td>
-        </tr>
-        <tr>
-            <td align="center"><input type="submit"><input type="reset"></td>
-        </tr>
-    </table>
-    </form>
-    <hr>
-    
+    <div style="margin: 0 auto ; width:500px;border:2px red solid;padding:50px">
+        <form action="rest.php" method="post">
+            <h2 style="margin: 0;">ShopShock Member Register</h2><br>
+            <hr>
+            <table style="margin-right: auto;margin-left: auto;">
+                <input type="hidden" name="Register">
+                <tr style="text-align: right;">
+                    <td><label for="">Name : </label></td>
+                    <td><input type="text" name="name" id=""></td>
+                </tr>
+                <tr style="text-align: right;">
+                    <td><label for="">NickName : </label></td>
+                    <td><input type="text" name="nickname" id=""></td>
+                </tr>
+                <tr style="text-align: right;">
+                    <td><label for="">Password : </label></td>
+                    <td><input type="text" name="pass" id=""></td>
+                </tr>
+                <tr style="text-align: right;">
+                    <td><label for="">Confirm Password : </label></td>
+                    <td><input type="text" name="con_pass" id=""></td>
+                </tr>
+            </table>
+            <hr>
+            <table style="margin-right: auto;margin-left: auto;">
+                <tr>
+                    <td style="text-align: right;"><button type="submit">submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+
 </body>
+
 </html>
