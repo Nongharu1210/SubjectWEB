@@ -11,7 +11,7 @@
 
 <body>
     <h1 align="center">ยินดีต้อนรับเข้าสู่เมนูลูกค้า</h1>
-    <div style="margin: 0 auto; width:150px; border:2px black solid; padding:0px; text-align: right;">
+    <div style="margin: 2px 1em 0 auto; width:150px; border:2px black solid; padding:5px; text-align: right;">
             <h3>
                 <?php
                 session_start();

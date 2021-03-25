@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div style="margin: 0 auto ; width:500px;border:2px red solid;padding:50px">
+    <div style="margin: 0 auto; width:500px;border:2px red solid;padding:50px">
         <form action="rest.php" method="post">
             <h1 style="text-align: center;">SHOPSHOCK</h1>
             <h4 style="text-align: center;">กรุณากรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ</h4>
@@ -29,8 +29,12 @@
                     <td>
                         <button type="submit" onclick="login()">Login</button>
                         <button type="reset">Reset</button>
-                        <button><a href="Register.php">register</a> </button>
+                        
                     </td>
+                </tr>
+                <tr>
+                    <td>ยังไม่เป็นสมาชิก</td>
+                    <td><button  onclick="location.href='Register.php'">register</a> </button></td>
                 </tr>
             </table>
         </form>

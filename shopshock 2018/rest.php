@@ -63,7 +63,7 @@ function show_productList($debug_mode)
         foreach ($row as $key => $value) {
             echo "<td>{$value}</td>";
         }
-        echo "<td><a href='handle.php?delId={$row['Product_id']}'><'Shop Shock'></a></td>";
+        echo "<td><a href='Po.php?delId={$row['Product_id']}'><'Shop Shock'></a></td>";
         echo "</tr>";
     }
     echo "</table>";

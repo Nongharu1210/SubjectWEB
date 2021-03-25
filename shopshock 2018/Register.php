@@ -21,26 +21,29 @@
                 <input type="hidden" name="Register">
                 <tr style="text-align: right;">
                     <td><label for="">Name : </label></td>
-                    <td><input type="text" name="name" id=""></td>
+                    <td><input type="text" name="name" id="" required></td>
                 </tr>
                 <tr style="text-align: right;">
                     <td><label for="">NickName : </label></td>
-                    <td><input type="text" name="nickname" id=""></td>
+                    <td><input type="text" name="nickname" id="" required></td>
                 </tr>
                 <tr style="text-align: right;">
                     <td><label for="">Password : </label></td>
-                    <td><input type="text" name="pass" id=""></td>
+                    <td><input type="text" name="pass" id="" required></td>
                 </tr>
                 <tr style="text-align: right;">
                     <td><label for="">Confirm Password : </label></td>
-                    <td><input type="text" name="con_pass" id=""></td>
+                    <td><input type="text" name="con_pass" id="" required></td>
                 </tr>
             </table>
             <hr>
             <table style="margin-right: auto;margin-left: auto;">
                 <tr>
                     <td style="text-align: right;"><button type="submit">submit</button></td>
-                    <td><button type="reset">Reset</button></td>
+                    <td>
+                        <button type="reset">Reset</button>
+                        <button onclick="location.href='login.php'">Back</a> </button>
+                    </td>
                 </tr>
             </table>
 
