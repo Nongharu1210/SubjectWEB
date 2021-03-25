@@ -11,10 +11,19 @@
 
 <body>
     <h1 align="center">ยินดีต้อนรับเข้าสู่เมนูลูกค้า</h1>
-    <br>
+    <div style="margin: 0 auto; width:150px; border:2px black solid; padding:0px; text-align: right;">
+            <h3>
+                <?php
+                session_start();
+                echo "Your Welcome<br>";
+                print_r($_SESSION['name']);
+                ?>
+            </h3>
+        </div>
     <p align="center">|<a href="#">สั่งซื้อสินค้า</a>|<a href="#">ชำระเงิน</a>|<a href="logout.php">ออกจากระบบ</a>|</p>
     <h1 align="center">SHOPSHOCK</h1>
     <h3 align="center">Select Product to Cart</h3>
+    
     <?php
     include_once "db_shopshock.php";
     include_once "rest.php";

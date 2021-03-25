@@ -22,18 +22,21 @@
                 </tr>
                 <tr>
                     <td><label for="">password : </label></td>
-                    <td><input type="text" name="password" id="" required></td>
+                    <td><input type="password" name="password" id="" required></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>
-                        <button type="submit">Login</button>
+                        <button type="submit" onclick="login()">Login</button>
                         <button type="reset">Reset</button>
+                        <button><a href="Register.php">register</a> </button>
                     </td>
                 </tr>
             </table>
         </form>
     </div>
+    
+    </script>
 </body>
 
 </html>
