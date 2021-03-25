@@ -12,7 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     } else if (isset($_POST['login'])) {
         if (login($debug_mode, $_POST['username'], $_POST['password'])) {
             header('Location:ProductList.php');
-        } else echo "รหัสผ่านผิด";
+        } else {
+            echo "<script>alert('รหัสผ่านผิด')</script>";
+        }
     }
 } else if ($_SERVER['REQUEST_METHOD'] == 'DELETE') {
     delete_id($debug_mode, $_GET['u_id']);
@@ -66,8 +68,6 @@ function show_productList($debug_mode)
     }
     echo "</table>";
 }
-
-
 
 function show_data($debug_mode)
 {

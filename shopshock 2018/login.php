@@ -18,14 +18,18 @@
                 <tr>
                     <input type="hidden" name="login">
                     <td><label for="">username : </label></td>
-                    <td><input type="text" name="username" id=""></td>
+                    <td><input type="text" name="username" id="" required></td>
                 </tr>
                 <tr>
                     <td><label for="">password : </label></td>
-                    <td><input type="text" name="password" id=""></td>
+                    <td><input type="text" name="password" id="" required></td>
                 </tr>
                 <tr>
-                    <td> <button type="submit">Login</button></td>
+                    <td></td>
+                    <td>
+                        <button type="submit">Login</button>
+                        <button type="reset">Reset</button>
+                    </td>
                 </tr>
             </table>
         </form>
