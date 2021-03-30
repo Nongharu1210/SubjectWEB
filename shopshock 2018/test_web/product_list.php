@@ -64,7 +64,7 @@
         out.innerHTML = text;
     }
 
-    function open_po(idx,cus_id){
+    function open_bill(idx,cus_id){
         qty = document.getElementById("n"+idx);
         alert("product_code="+arr[idx][1]+"="+qty.value);
         let xhttp = new XMLHttpRequest();
@@ -75,7 +75,9 @@
         }
         xhttp.open("POST","product_rest.php",true);
         xhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-        xhttp.send("p_id="+arr[idx][0]+"&p_qty="+qty.value+"&cus_id="+cus_id);
+        // xhttp.send("p_id="+arr[idx][0]+"&p_qty="+qty.value+"&cus_id="+cus_id);
+        xhttp.send("p_id="+arr[idx][0]+"&p_qty="+qty.value+"&p_price="+qty.value+"&cus_id="+cus_id);
+        
     }
     </script>
 </body>
