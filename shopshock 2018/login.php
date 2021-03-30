@@ -15,12 +15,12 @@
             <h1 style="text-align: center;">SHOPSHOCK</h1>
             <h4 style="text-align: center;">กรุณากรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ</h4>
             <table style="margin-right: auto;margin-left: auto;">
-                <tr>
+                <tr style="text-align: right;">
                     <input type="hidden" name="login">
-                    <td><label for="">username : </label></td>
+                    <td><label for="" >username : </label></td>
                     <td><input type="text" name="username" id="" required></td>
                 </tr>
-                <tr>
+                <tr style="text-align: right;">
                     <td><label for="">password : </label></td>
                     <td><input type="password" name="password" id="" required></td>
                 </tr>
@@ -33,7 +33,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>ยังไม่เป็นสมาชิก</td>
+                    <td>ยังไม่เป็นสมาชิก?</td>
                     <td><button  onclick="location.href='Register.php'">register</a> </button></td>
                 </tr>
             </table>
@@ -42,5 +42,4 @@
     
     </script>
 </body>
-
 </html>
