@@ -35,11 +35,11 @@
         $db = new database();
         $db->connect();
         $sql ="SELECT Bill_id, Bill_status FROM bill WHERE Cus_ID ='{$_SESSION['cus_id']}' order by Bill_id desc limit 1";
-        $result = $db->query($sql);
+        $bill_result = $db->query($sql);
         $p_id = $_POST['p_id'];
         $p_qty = $_POST['p_qty'];
         $p_price = $_POST['p_price'];
-        if (sizeof($result)== 0) {
+        if (sizeof($bill_result)== 0) {
             // insert new
             $sql = "INSERT INTO bill(Bill_id, Cus_ID, Bill_Status) VALUES (1,'{$_SESSION['cus_id']}',0)";
             $result = $db->exec($sql);
@@ -64,6 +64,6 @@
         }
         #INSERT INTO bill(Bill_id, Cus_ID,Bill_Status) VALUES (1,1,1)
         
-        return $result;
+        return $bill_result;
     }
 ?>
