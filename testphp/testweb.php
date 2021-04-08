@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25,7 +26,7 @@
 </head>
 <!--/head-->
 
-<body style="">
+<body>
     <header id="header">
         <!--header-->
         <div class="header_top">
@@ -35,8 +36,8 @@
                     <div class="col-sm-6">
                         <div class="contactinfo">
                             <ul class="nav nav-pills">
-                                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i> 062 371 1535</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i> riew-riew@outlook.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -62,7 +63,7 @@
                 <div class="row">
                     <div class="col-md-4 clearfix">
                         <div class="logo pull-left">
-                            <a href="index.html"><img src="images/home/logo.png" alt=""></a>
+                            <a href="index.html"><img src="images/home/logo.png" alt="" /></a>
                         </div>
                         <div class="btn-group pull-right clearfix">
                             <div class="btn-group">
@@ -142,7 +143,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="search_box pull-right">
-                            <input type="text" placeholder="Search">
+                            <input type="text" placeholder="Search" />
                         </div>
                     </div>
                 </div>
@@ -159,13 +160,13 @@
                 <div class="col-sm-12">
                     <div id="slider-carousel" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#slider-carousel" data-slide-to="0" class=""></li>
-                            <li data-target="#slider-carousel" data-slide-to="1" class="active"></li>
-                            <li data-target="#slider-carousel" data-slide-to="2" class=""></li>
+                            <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider-carousel" data-slide-to="1"></li>
+                            <li data-target="#slider-carousel" data-slide-to="2"></li>
                         </ol>
 
                         <div class="carousel-inner">
-                            <div class="item">
+                            <div class="item active">
                                 <div class="col-sm-6">
                                     <h1><span>E</span>-SHOPPER</h1>
                                     <h2>Free E-Commerce Template</h2>
@@ -173,11 +174,11 @@
                                     <button type="button" class="btn btn-default get">Get it now</button>
                                 </div>
                                 <div class="col-sm-6">
-                                    <img src="images/home/girl1.jpg" class="girl img-responsive" alt="">
-                                    <img src="images/home/pricing.png" class="pricing" alt="">
+                                    <img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
+                                    <img src="images/home/pricing.png" class="pricing" alt="" />
                                 </div>
                             </div>
-                            <div class="item active">
+                            <div class="item">
                                 <div class="col-sm-6">
                                     <h1><span>E</span>-SHOPPER</h1>
                                     <h2>100% Responsive Design</h2>
@@ -185,8 +186,8 @@
                                     <button type="button" class="btn btn-default get">Get it now</button>
                                 </div>
                                 <div class="col-sm-6">
-                                    <img src="images/home/girl2.jpg" class="girl img-responsive" alt="">
-                                    <img src="images/home/pricing.png" class="pricing" alt="">
+                                    <img src="images/home/product1.jpg" class="girl img-responsive" alt="" />
+                                    <img src="images/home/pricing.png" class="pricing" alt="" />
                                 </div>
                             </div>
 
@@ -198,8 +199,8 @@
                                     <button type="button" class="btn btn-default get">Get it now</button>
                                 </div>
                                 <div class="col-sm-6">
-                                    <img src="images/home/girl3.jpg" class="girl img-responsive" alt="">
-                                    <img src="images/home/pricing.png" class="pricing" alt="">
+                                    <img src="images/home/product2.jpg" class="girl img-responsive" alt="" />
+                                    <img src="images/home/pricing.png" class="pricing" alt="" />
                                 </div>
                             </div>
 
@@ -355,17 +356,7 @@
                             <!--price-range-->
                             <h2>Price Range</h2>
                             <div class="well text-center">
-                                <div class="slider slider-horizontal" style="width: 178px;">
-                                    <div class="slider-track">
-                                        <div class="slider-selection" style="left: 41.6667%; width: 33.3333%;"></div>
-                                        <div class="slider-handle round left-round" style="left: 41.6667%;"></div>
-                                        <div class="slider-handle round" style="left: 75%;"></div>
-                                    </div>
-                                    <div class="tooltip top" style="top: -30px; left: 70.8333px;">
-                                        <div class="tooltip-arrow"></div>
-                                        <div class="tooltip-inner">250 : 450</div>
-                                    </div><input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" style="">
-                                </div><br>
+                                <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2"><br />
                                 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
                             </div>
                         </div>
@@ -373,7 +364,7 @@
 
                         <div class="shipping text-center">
                             <!--shipping-->
-                            <img src="images/home/shipping.jpg" alt="">
+                            <img src="images/home/shipping.jpg" alt="" />
                         </div>
                         <!--/shipping-->
 
@@ -381,164 +372,56 @@
                 </div>
 
                 <div class="col-sm-9 padding-right">
-                    <div class="features_items">
-                        <!--features_items-->
-                        <h2 class="title text-center">Features Items</h2>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product1.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product2.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product3.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product4.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                    <img src="images/home/new.png" class="new" alt="">
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product5.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                    <img src="images/home/sale.png" class="new" alt="">
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="images/home/product6.jpg" alt="">
-                                        <h2>$56</h2>
-                                        <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <div class="overlay-content">
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+					<div class="features_items">
+						<!--features_items-->
+						<h2 class="title text-center">Features Items</h2>
+						<?php
+						$mysqli = new mysqli("localhost", "root", "", "shopshock");
+						$mysqli->set_charset("utf8");
+						$sql = "SELECT product.Product_code,product.Product_Name,  product.Cost,product.Stock_Quantity FROM `product`";
+						$result = $mysqli->query($sql);
+						$rows = $result->fetch_all(MYSQLI_NUM);
+						for ($i = 0; $i < sizeof($rows); $i++) {
+							show_product($rows[$i][0], $rows[$i][1], number_format($rows[$i][2], 2, '.', '.'), $rows[$i][3]);
+						}
+						function show_product($product_code = "", $product_name = "", $price = "", $quantity = 50)
+						{
+						?>
+							<!--Show Product-->
+							<div class="col-sm-4">
+								<div class="product-image-wrapper">
 
-                    </div>
-                    <!--features_items-->
+									<div class="single-products">
+										<div class="productinfo text-center">
+											<img src="images/home/product5.jpg" alt="<?= $product_name ?>">
+											<h2><?= $price ?></h2>
+											<p><?= $product_code ?></p>
+											<p><?= $product_name ?></p>
+											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+										<div class="product-overlay">
+											<div class="overlay-content">
+												<h1><b style="color:aquamarine">Shopshock</b></h1>
+												<h2><?= $price ?></h2>
+												<p><?= $product_name ?></p>
+												<input type="number" min="0" max="<?= $quantity ?>"><br>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="choose">
+										<ul class="nav nav-pills nav-justified">
+											<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+											<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						<?php } ?>
+					</div>
+					<!--features_items-->
+                    <!-- showproduct -->
 
                     <div class="category-tab">
                         <!--category-tab-->
@@ -551,6 +434,7 @@
                                 <li><a href="#poloshirt" data-toggle="tab">Polo shirt</a></li>
                             </ul>
                         </div>
+                        <!--   -->
                         <div class="tab-content">
                             <div class="tab-pane fade active in" id="tshirt">
                                 <div class="col-sm-3">
@@ -827,16 +711,15 @@
                                 </div>
                             </div>
                         </div>
+                        <!--   -->
+
                     </div>
                     <!--/category-tab-->
 
                     <div class="recommended_items">
-                        <!--recommended_items-->
-                        <h2 class="title text-center">recommended items</h2>
-
                         <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="item">
+                                <div class="item active">
                                     <div class="col-sm-4">
                                         <div class="product-image-wrapper">
                                             <div class="single-products">
@@ -877,7 +760,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item active">
+                                <div class="item">
                                     <div class="col-sm-4">
                                         <div class="product-image-wrapper">
                                             <div class="single-products">
@@ -927,6 +810,7 @@
                             </a>
                         </div>
                     </div>
+
                     <!--/recommended_items-->
 
                 </div>
@@ -950,7 +834,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe1.png" alt="">
+                                        <img src="images/home/iframe1.png" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -965,7 +849,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe2.png" alt="">
+                                        <img src="images/home/iframe2.png" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -980,7 +864,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe3.png" alt="">
+                                        <img src="images/home/iframe3.png" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -995,7 +879,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe4.png" alt="">
+                                        <img src="images/home/iframe4.png" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -1008,7 +892,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="address">
-                            <img src="images/home/map.png" alt="">
+                            <img src="images/home/map.png" alt="" />
                             <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
                         </div>
                     </div>
@@ -1071,9 +955,9 @@
                         <div class="single-widget">
                             <h2>About Shopper</h2>
                             <form action="#" class="searchform">
-                                <input type="text" placeholder="Your email address">
+                                <input type="text" placeholder="Your email address" />
                                 <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-                                <p>Get the most recent updates from <br>our site and be updated your self...</p>
+                                <p>Get the most recent updates from <br />our site and be updated your self...</p>
                             </form>
                         </div>
                     </div>
@@ -1102,8 +986,6 @@
     <script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
-
-    <a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
 </body>
 
 </html>
